@@ -20,7 +20,7 @@
 
 file=$1
 
-# Subtask a)
+echo "task A)"
 awk '
     BEGIN {
         FS = ","; 
@@ -44,7 +44,7 @@ awk '
     }
 ' $file 
 
-# Subtask b)
+echo "task B)"
 awk '
     BEGIN {
         FS = ",";
@@ -57,7 +57,7 @@ awk '
     }
 ' $file
 
-# Subtask c)
+echo "task C)"
 awk '
     BEGIN {
         FS = ",";

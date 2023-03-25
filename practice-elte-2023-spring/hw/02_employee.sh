@@ -17,15 +17,47 @@
 # c) Read in a job type and give how many people are in that position.
 
 file=$1
+job_type=$2
 
-# Subtask a)
-
+echo "Task A)"
 awk '
     BEGIN {
-        FS=","
-    }  
+        FS = ",";
+        exists = 0;
+    } 
     {
         if (NF > 1 && /barman/) {
+            print $1;
+            exists = 1;
+        }
+    }
+    END {
+        if (exists == 0) {
+            print "NONE";
+        }
+    }
+' $file
+
+
+echo "Task B)"
+awk '
+    BEGIN {
+        FS = ",";
+    } 
+    {
+        if (NF - 2 >= 3) {
+            print $1;
+        }
+    }
+' $file
+
+echo "Task C)"
+awk -v pat="$2" '
+    BEGIN {
+        FS = ",";
+    } 
+    {
+        if (NF > 1 && $0 ~ pat) {
             print $1;
         }
     }
