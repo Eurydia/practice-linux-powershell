@@ -1,8 +1,0 @@
-G, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-F, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-E, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-D, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-C, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-B, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-A, Master Chef, menu planning,kitchen management, cooking,4-hour off-call
-0, a,b,chief ,ofaf

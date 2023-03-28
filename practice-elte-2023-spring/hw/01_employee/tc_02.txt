@@ -1,0 +1,4 @@
+A, Master Chef, kitchen management, cooking, _
+B, barman, menu planning, _
+C, menu planning, cooking, _
+D, barman, cooking, _
