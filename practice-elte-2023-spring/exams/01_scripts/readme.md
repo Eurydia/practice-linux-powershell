@@ -16,9 +16,13 @@ Tasks:
 
 1. Create a shell script which behaves different dependent on the parameter!
     If the parameter:
+        
         `-g` (then write out a greeting text)
+        
         `-l` (list the content of your directory)
+        
         `-w` (write out the logged in users)
+        
         `-?` (writes out a small help about the parameters)
 
 1. Create a script which gets two numbers as positional parameters!
