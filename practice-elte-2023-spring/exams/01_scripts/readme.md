@@ -28,7 +28,11 @@ Tasks:
 1. Create a script which gets two numbers as positional parameters!
     The script should write out each square numbers between the parameters. 
     
-    E.g. the parameters are: $3$ and $7$ then write out $9$, $16$, $25$, $36$, $49$.
+    E.g. the parameters are: $3$ and $7$ then write out 
+    
+    ```math
+    9, 16, 25, 36, 49.
+    ```
 
     Check wheather the order of the numbers is good or not.
     If the second number is less then the first, swap them!
@@ -55,7 +59,11 @@ Tasks:
 3. Create a script, which gives back the greatest common divisor of two numbers!
     The numbers are given by parameters.
     
-    E.g. the numbers are $12$ and $30$ then the result is $6$!
+    E.g. the numbers are $12$ and $30$ then the result is 
+    
+    ```math
+    6.
+    ```
 
 4. Create a script which writes out a square from $A$ characters. 
 
@@ -89,7 +97,9 @@ Tasks:
     
     E.g. if the $N$ is $5$, then the elements of the serie are:
 
-    $$3, 7, 11, 15, 19$$
+    ```math
+    3, 7, 11, 15, 19
+    ```
 
 3. Create a script, which gives back those lines of a file $F$ which starts with a given name $N$. 
     $F$ and $N$ are given by parameters! 
