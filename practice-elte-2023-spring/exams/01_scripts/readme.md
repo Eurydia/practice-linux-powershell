@@ -40,7 +40,7 @@ Tasks:
 1. Create a script which writes out each odd lines of a file!
     The file is given by it’s name through a parameter!
 
-1. Create a script which deletes the 3 digits long numbers from a file!
+1. Create a script which deletes the $3$ digits long numbers from a file!
     The filename is given by a parameter!
 
 
@@ -87,7 +87,11 @@ Tasks:
 
 1. Create a shell script which writes out $N$-th even number!
 
-    E.g. the number is $3$ then the result is $6$ – because the first even number is $2$, the second is $4$, and the third is $6$.
+    E.g. the number is $3$ then the result is 
+    
+    ```
+    6
+    ```
     
     The $N$ number is given by a positional parameter.
     If the user miss to give the parameters then read the number from the keyboard!
