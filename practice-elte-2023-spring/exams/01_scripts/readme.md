@@ -6,7 +6,9 @@ Tasks:
 
 1. Create a shell script which evaluate the result of the following expression: 
 
-    $$5*P*P+3*P+1$$ 
+    ```math
+    5*P*P+3*P+1
+    ```
 
     where $P$ is number given by as a positional parameter.
     If the user miss to give the parameter then read the number from the keyboard.
