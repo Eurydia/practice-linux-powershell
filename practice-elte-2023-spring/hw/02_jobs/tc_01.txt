@@ -1,0 +1,4 @@
+Company A, address A, 4, 2
+Company B, address B, 0, 3
+Company D, address D, 2, 7
+Company E, address E, 2, 9
