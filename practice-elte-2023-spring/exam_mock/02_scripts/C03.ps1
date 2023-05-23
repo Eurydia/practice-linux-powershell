@@ -3,13 +3,13 @@ param(
     [string]$fileName
 )
 
-$content = Get-Content $fileName
+$content = (Get-Content $fileName)
 
-for (($i) = (($content).Length - 1); 0 -ge ($i); ($i)-- ) {
-    $words = [System.Convert]::ToString(($content)[($i)]).Split(" ")
+[array]::Reverse($content)
+foreach ($line in $content) {
 
-    for (($j) = (($words).Length - 1); 0 -ge ($j); ($j)-- ) {
-        Write-Host $word[$j] -NoNewline
-    }
-    Write-Host $content
+    $words = ($line).Split(" ")
+    [array]::Reverse($words)
+        
+    Write-Host $words
 }
