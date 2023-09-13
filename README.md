@@ -1,2 +1,3 @@
 # practice-scripting-languages
- A repository for Linux/Shell scripting
+
+A collection of scripting language exercises.
