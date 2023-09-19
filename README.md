@@ -1,3 +1,3 @@
-# practice-scripting-languages
+# practice-linux-powershell
 
-A collection of scripting language exercises.
+A collection of Linux and PowerShell exercises. 
